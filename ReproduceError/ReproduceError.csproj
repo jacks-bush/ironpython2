@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Src\DLR\Src\Microsoft.Dynamic\Microsoft.Dynamic.csproj" />
+    <ProjectReference Include="..\Src\DLR\Src\Microsoft.Scripting\Microsoft.Scripting.csproj" />
+    <ProjectReference Include="..\Src\IronPython.Modules\IronPython.Modules.csproj" />
+    <ProjectReference Include="..\Src\IronPython\IronPython.csproj" />
+  </ItemGroup>
+
+</Project>
